@@ -1,9 +1,11 @@
 $bg-color: #E6E5E1;
 $shdow-gray: #d3d3d5;
 $orange: #DA4D1D;
-$blue: #2b26c3;
+$blue: #1b1bd6;
+$green:rgb(6, 110, 6);
 $img-url: "https://github.com/MinMinTW/anniversary-card/blob/main/assets/images/us1.jpg?raw=true";
-$img-url2: "https://images.unsplash.com/photo-1528785198459-ec50485704c7?ixlib=rb-0.3.5&s=3a2fc3039516555bbb2e9cd2967bd321&auto=format&fit=crop&w=1537&q=80";
+$img-url2: "https://github.com/MinMinTW/anniversary-card/blob/main/assets/images/us2.jpg?raw=true";
+$img-url3:"";
 
 * {
   margin: 0;
@@ -42,7 +44,7 @@ body {
 
   .card {
     position: relative;
-    width: 500px;
+    width: 400px;
     height: 200px;
     background-color: #fff;
     overflow: hidden;
@@ -79,8 +81,8 @@ body {
       top: 5px;
       list-style-type: none;
       li {
-        width: 2px;
-        height: 2px;
+        width: 3px;
+        height: 3px;
         border-radius: 2px;
         margin: 6px 0;
         background-color: $bg-color;
@@ -120,7 +122,7 @@ body {
     }
     .pic {
       z-index: 100;
-      width: 400px;
+      width: 300px;
       height: 200px;
       background-image: url($img-url);
       background-size: 100% 100%;
@@ -209,6 +211,14 @@ body {
     }
     button {
       background-color: $blue;
+    }
+  }
+  .card3 {
+    .pic {
+      background-image: url($img-url3);
+    }
+    button {
+      background-color: $green;
     }
   }
 }
