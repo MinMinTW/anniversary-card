@@ -5,11 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>contact</title>
+    
   </head>
   <body>
-    <%- include('./layout/header'); -%>
-    <h1>我是contact</h1>
-    <%- include('./layout/footer'); -%>
+    <div class="shaker">
+      <div id="template" class="dialog">
+        <div class="dialog-body">
+          <div id="triangle-wrapper">
+            <div class="shadow">
+              <div></div>
+            </div>
+          </div>
+          <button class="stamp hvr-buzz" id="stamp-envelope"></button>
+        </div>
+        <div id="info">open me</div>
+      </div>
+  
+      <div class="message">
+        <div class="part-one" id="part-one-message">
+          <div class="message-header"></div>
+          <div class="message-text">
+            Dear 柏丞, <br><br>
+            5週年快樂!<br>
+            我記得<br>
+            滿一週年的時候，我根本不在乎<br>
+            第二年，我好像也還好<br>
+            第三年，就等你請我吃飯<br>
+            去年開始我開始會想著<br>
+            這天可以為你做些什麼<br>
+            到今年，第五年了我覺得這天好重要<br>
+            
+            以前的我根本不覺得會人這麼愛我<br>
+            也不想為任何人付出<br>
+            你真的是真心只希望我快樂的人<br><br>
+            
+            我覺得你真的是魔法般的存在<br>
+            你沒有逼我做任何事<br>
+            卻默默地改變了我好多<br>
+            想了想，你好像從來都沒有對我不耐煩過<br>
+            就算壓力大也不會遷怒我<br><br>
+          
+            你知道我很多很痛苦的時刻<br>
+            我說 我不可能走出那些陰霾了<br>
+            但你說 你一定會想辦法幫我走出來<br>
+            謝謝你<br>真的<br>
+            所有的一切 跟以前相比<br>
+            我真的好多了<br><br>
+          
+            
+            我每年都還是要說<br>
+            你真的是這世界上最了解我的人<br>
+            沒有你的世界 我無力承受<br>
+            愛你<br>
+            <br><br>真的很謝謝你付出的一切<br><br>敏君
+          </div>
+          <div class="stamp-wrapper">
+            <div class="stamp hvr-buzz" id="stamp-footer">❤️</div>
+          </div>
+          <div class="message-footer"></div>
+        </div>
+  
+      </div>
+    </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.6.1/dat.gui.js'></script>
+    <script src='https://cdn.rawgit.com/josephg/noisejs/master/perlin.js'>
+    </script>
+    <script src='letter-script.js'></script>
 
     <script type="module" src="../main.js"></script>
   </body>
